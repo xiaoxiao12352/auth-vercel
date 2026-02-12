@@ -11,5 +11,11 @@
       "src": "/api/check",
       "dest": "/api/check.py"
     }
-  ]
+  ],
+  "env": {
+    "UV_CACHE": "false",
+    "UV_PYTHON": "python3.9"
+  },
+  "buildCommand": "echo '跳过依赖检查'",
+  "installCommand": "echo '跳过安装'"
 }
