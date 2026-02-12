@@ -9,6 +9,11 @@
   "routes": [
     {
       "src": "/api/check",
+      "dest": "/api/check.py",
+      "methods": ["GET", "POST"]
+    },
+    {
+      "src": "/",
       "dest": "/api/check.py"
     }
   ]
