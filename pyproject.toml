@@ -1,9 +1,12 @@
-[project]
-name = "auth-server"
-version = "1.0.0"
-description = "Authorization Server"
-authors = [{name = "Your Name"}]
-
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "auth-api"
+version = "1.0.0"
+description = "Authorization API"
+authors = [
+    {name = "Developer", email = "dev@example.com"}
+]
+dependencies = []  # 这里留空，没有外部依赖
